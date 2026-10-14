@@ -67,7 +67,7 @@ footer{padding:32px 0;text-align:center;color:var(--muted);font-size:13px;border
 <div class="stats">
 <div class="stat"><b>5,000+</b><span>records validated across 8–10 databases</span></div>
 <div class="stat"><b>4,200+</b><span>patient records in the Power BI dashboard</span></div>
-<div class="stat"><b>4</b><span>portfolio projects</span></div>
+<div class="stat"><b>6</b><span>portfolio projects</span></div>
 <div class="stat"><b>IIT Patna</b><span>Data Science &amp; Analytics certification</span></div>
 </div>
 </div>
@@ -105,6 +105,17 @@ footer{padding:32px 0;text-align:center;color:var(--muted);font-size:13px;border
 </ul>
 <div class="tags"><span class="tag">Python</span><span class="tag">SQLite</span><span class="tag">SQL</span><span class="tag">Data cleaning</span></div>
 <a class="link" href="https://github.com/VPraja92/epl-sql-agent" target="_blank" rel="noopener">View on GitHub (EPL SQL agent) →</a>
+</article>
+<article class="card">
+<h3>EPL 2026-27 Match Database</h3>
+<div class="meta">Python · SQLite · pandas · Self-directed · 2026</div>
+<ul>
+<li>Built a script that downloads the current-season Premier League match CSV from football-data.co.uk, cleans it down to the useful columns (dropping 50+ betting-odds columns) and loads it into a normalized SQLite database.</li>
+<li>Designed a three-table schema (teams, matches, match_stats) with an idempotent load that upserts on date and teams, so the script can be re-run weekly without duplicate rows.</li>
+<li>Wrote SQL for a live league standings view (CTEs, UNION ALL, aggregation) and a last-5-games form table using a window function.</li>
+</ul>
+<div class="tags"><span class="tag">Python</span><span class="tag">SQLite</span><span class="tag">pandas</span><span class="tag">CTEs</span><span class="tag">Window functions</span></div>
+<a class="link" href="https://github.com/VPraja92/EPL_26_27_-SQL-Project" target="_blank" rel="noopener">View on GitHub →</a>
 </article>
 <article class="card">
 <h3>Spam Email Classifier</h3>
